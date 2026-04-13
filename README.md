@@ -22,7 +22,7 @@ Materiały z zajęć _Statystyka Matematyczna_ prowadzonych na Wydziale Matematy
    <tr>
     <td>1</td>
     <td>15.04</td>
-    <td>Wybrane rozkłady prawdopodobieństwa</td>
+    <td><a href="https://github.com/kozaka93/2026L-MathematicalStatistics/tree/main/lab01">Wybrane rozkłady prawdopodobieństwa</a></td>
     <td></td>
   </tr>
    <tr>
