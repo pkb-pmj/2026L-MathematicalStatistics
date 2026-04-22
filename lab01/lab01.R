@@ -241,8 +241,20 @@ qexp(0.1, 0.0001)
 
 # a)
 
-
+n <- 20000
+x <- runif(n)
+y <- runif(n)
+z <- y < x^2
+plot(x, y, pch = '.', col = z + 2)
+mean(z)
 
 # b)
 
-
+n <- 100000
+xlim <- c(-1, 1)
+ylim <- c(0, 1)
+x <- runif(n, xlim[1], xlim[2])
+y <- runif(n, ylim[1], ylim[2])
+z <- (x^2 < y) & (y < 1 - x^2)
+plot(x, y, pch = '.', col = z + 2)
+mean(z) * (xlim[2] - xlim[1]) * (ylim[2] - ylim[1])
